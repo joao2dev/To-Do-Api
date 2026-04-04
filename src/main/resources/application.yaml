@@ -19,3 +19,8 @@ server:
 jwt:
   secret: ${KEY}
   expiration: 86400000
+flyway:
+    default:
+      enabled: true
+      locations:
+        - classpath:db/migrations

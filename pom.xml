@@ -43,8 +43,9 @@
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-flyway</artifactId>
+            <groupId>org.flywaydb</groupId>
+            <artifactId>flyway-core</artifactId>
+            <version>12.3.0</version> <!-- Replace with latest 12.x version -->
         </dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
